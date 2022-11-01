@@ -8,8 +8,115 @@
 {% block body %}
     <!- Try building a new body here, bootstrap is a wise choice ->
     <div class="px-5 py-5 mx-auto">
-        <h1 class="text-primary"><strong>Ananya's Stubby Body</strong></h1>
-        <p class="text-secondary">Ananya Gaurav</p>
+        <h1 class="text-primary"><strong>Information About Me! </strong></h1>
+        <!-- CSS Code: Place this code in the document's head (between the 'head' tags) -->
+<style>
+    table.GeneratedTable {
+      width: 100%;
+      background-color: #ffffff;
+      border-collapse: collapse;
+      border-width: 2px;
+      border-color: #ffcc00;
+      border-style: solid;
+      color: #000000;
+    }
+    
+    table.GeneratedTable td, table.GeneratedTable th {
+      border-width: 2px;
+      border-color: #ffcc00;
+      border-style: solid;
+      padding: 3px;
+    }
+    
+    table.GeneratedTable thead {
+      background-color: #ff0059;
+    }
+    </style>
+    
+    <!-- HTML Code: Place this code in the document's body (between the 'body' tags) where the table should appear -->
+    <table class="GeneratedTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Grade</th>
+          <th>Birthday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ananya Gaurav</td>
+          <td>15 years</td>
+          <td>10th grade</td>
+          <td>Jan 26,2007</td>
+        </tr>
+      </tbody>
+    </table>
+    
+        <h1 class="text-primary"><strong>The Classes I took this year.......</strong></h1>
+<!-- CSS Code: Place this code in the document's head (between the 'head' tags) -->
+<style>
+    table.GeneratedTable {
+      width: 100%;
+      background-color: #ffffff;
+      border-collapse: collapse;
+      border-width: 2px;
+      border-color: #ffcc00;
+      border-style: solid;
+      color: #000000;
+    }
+    
+    table.GeneratedTable td, table.GeneratedTable th {
+      border-width: 2px;
+      border-color: #ffcc00;
+      border-style: solid;
+      padding: 3px;
+    }
+    
+    table.GeneratedTable thead {
+      background-color: #ff0026;
+    }
+    </style>
+    
+    <!-- HTML Code: Place this code in the document's body (between the 'body' tags) where the table should appear -->
+    <table class="GeneratedTable">
+      <thead>
+        <tr>
+          <th>Period</th>
+          <th>Class</th>
+          <th>Teacher</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Period 1</td>
+          <td>Physics</td>
+          <td>Mrs.Callicott</td>
+        </tr>
+        <tr>
+          <td>Period 2</td>
+          <td>Honours Humanities</td>
+          <td>Mrs.Philyaw</td>
+        </tr>
+        <tr>
+          <td>Period 3</td>
+          <td>Math III</td>
+          <td>Ms.Grimsley</td>
+        </tr>
+        <tr>
+          <td>Period 4</td>
+          <td>APES</td>
+          <td>Mr.Moultan</td>
+        </tr>
+        <tr>
+          <td>Period 5</td>
+          <td>CSP</td>
+          <td>Mr.Yeung</td>
+        </tr>
+      </tbody>
+    </table>
+    <img class="card-img-top" src="{{ url_for('static', filename='assets/subjects.png') }}" alt="Backend and Persistence" width="50",  height="750">
+
     </div>
 {% endblock %}
 
